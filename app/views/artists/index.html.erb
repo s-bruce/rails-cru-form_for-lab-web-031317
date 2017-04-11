@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Artists</h1>
+
+    <ul>
+    <%@artists.each do |artist|%>
+      <li><%=artist.name%></li>
+    <%end%>
+    </ul>
+    
+  </body>
+</html>
